@@ -1,6 +1,6 @@
 while True:
     a = input().strip()
     if a=="q":
-        exit()
+        break
     else:
-        print(a)
+        print(a+"でやんす")

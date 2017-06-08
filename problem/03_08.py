@@ -11,9 +11,9 @@ if n % 1 == 0:
                 else:
                     a = a + i + n/i
         if a == 2*n:
-            print("TRUE")
+            return True
         else:
-            print("FALSE")
+            return False
     else:
         print("正数を入力してください")
 else:

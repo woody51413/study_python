@@ -8,6 +8,6 @@ def is_perfect(n):
             else:
                 a = a + i + n/i
     if a == 2*n:
-        print("TRUE")
+        return True
     else:
-        print("FALSE")
+        return False
